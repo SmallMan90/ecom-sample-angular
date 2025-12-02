@@ -1,0 +1,28 @@
+{
+  "seller": [
+    {
+      "id": "1",
+      "name": "test",
+      "email": "test@seller.com",
+      "password": "test123"
+    },
+    {
+      "id": "2",
+      "name": "test",
+      "email": "test@seller.com",
+      "password": "test123"
+    },
+    {
+      "id": "3",
+      "name": "test new",
+      "email": "testnew@seller.com",
+      "password": "test1234"
+    },
+    {
+      "id": "4",
+      "name": "test new another",
+      "email": "testnewa@seller.com",
+      "password": "testna12345"
+    }
+  ]
+}
