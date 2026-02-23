@@ -24,6 +24,21 @@ export class Seller {
         }}
       )
   }
+
+  userLoginUp(data: signUp) {
+    return this.http.post('https://6929a70c9d311cddf34ab905.mockapi.io/api/seller',
+      data,
+      { observe: 'response' }).subscribe((result) => {
+        console.warn(result);
+        if (result) {
+          this.isSellerLoggedIn.next(true);
+          localStorage.setItem('seller', JSON.stringify(result.body));
+          this.router.navigate(['seller-home']);
+        }
+      }
+      )
+  }
+
   reloadSeller(){
     if(localStorage.getItem('seller')){
       this.isSellerLoggedIn.next(true);

@@ -1,10 +1,16 @@
-.seller-auth{
+.sign-up, .login{
     text-align: center;
     margin-top: 60px;
     color: blueviolet;
 }
 
-.sign-up h1{
+.sign-up h1, .login h1{
     margin-bottom: 80px;
 }
 
+.auth-toggle-link {
+    color: blueviolet;
+    font: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
